@@ -7,8 +7,13 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <StackPanel>
-        <TextBox x:Name="txtInput" TextWrapping="Wrap" AcceptsReturn="True" Text="Input"></TextBox>
-        <Button x:Name="btnRun" Click="btnRun_Click" Content="Run"></Button>
+        <TextBox x:Name="txtInput" 
+                 TextWrapping="Wrap" 
+                 AcceptsReturn="True" 
+                 Text="Input"></TextBox>
+        <Button x:Name="btnRun" 
+                Click="btnRun_Click" 
+                Content="Run"></Button>
         <Label x:Name="lblOutput"></Label>
     </StackPanel>
 </Window>
